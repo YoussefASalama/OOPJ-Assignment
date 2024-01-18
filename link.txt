@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/ahmedkallam/ikea-sa-furniture-web-scraping/
+
+https://www.kaggle.com/datasets/shawkyelgendy/furniture-price-prediction
