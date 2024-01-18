@@ -11,7 +11,7 @@ public class main {
         JLabel lblUsername;
         JLabel lblPassword;
         JTextField txtUsername = new JTextField();
-        JTextField txtPassword;
+        JTextField txtPassword = new JTextField ();
         JButton btnSignin;
         JButton btnExit;
 
