@@ -7,8 +7,8 @@ import javax.swing.JTextField;
 public class main {
     public static void main(String[] args) {
         JFrame login = new JFrame();
-        JPanel panel;
-        JLabel lblUsername;
+        JPanel panel = new JPanel();
+        JLabel lblUsername = new JLabel();
         JLabel lblPassword;
         JTextField txtUsername;
         JTextField txtPassword;
