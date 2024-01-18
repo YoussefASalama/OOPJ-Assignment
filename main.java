@@ -10,7 +10,7 @@ public class main {
         JPanel panel;
         JLabel lblUsername;
         JLabel lblPassword;
-        JTextField txtUsername;
+        JTextField txtUsername = new JTextField();
         JTextField txtPassword;
         JButton btnSignin;
         JButton btnExit;
