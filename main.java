@@ -10,11 +10,13 @@ public class main {
         JPanel panel = new JPanel();
         JLabel lblUsername = new JLabel();
         JLabel lblPassword;
-        JTextField txtUsername;
-        JTextField txtPassword;
+        JTextField txtUsername = new JTextField();
+        JTextField txtPassword = new JTextField ();
         JButton btnSignin;
         JButton btnExit;
 
         login.setVisible(true);
+
+        #abdulrahman
     }
 }
