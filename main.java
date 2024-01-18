@@ -6,7 +6,7 @@ import javax.swing.JTextField;
 
 public class main {
     public static void main(String[] args) {
-        JFrame login;
+        JFrame login = new JFrame();
         JPanel panel;
         JLabel lblUsername;
         JLabel lblPassword;
@@ -15,6 +15,6 @@ public class main {
         JButton btnSignin;
         JButton btnExit;
 
-        
+        login.setVisible(true);
     }
 }
