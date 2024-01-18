@@ -9,14 +9,12 @@ public class main {
         JFrame login = new JFrame();
         JPanel panel = new JPanel();
         JLabel lblUsername = new JLabel();
-        JLabel lblPassword;
+        JLabel lblPassword = new JLabel();
         JTextField txtUsername = new JTextField();
         JTextField txtPassword = new JTextField ();
-        JButton btnSignin;
-        JButton btnExit;
+        JButton btnSignin = new JButton();
+        JButton btnExit = new JButton();
 
         login.setVisible(true);
-
-        #abdulrahman
     }
 }
