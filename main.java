@@ -40,13 +40,13 @@ public class main {
         btnSignin.setBounds(100, 200, 100, 50);
         btnSignin.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                //function for the actual sign in
                 String username = txtUsername.getText();
-                char[] password = pasPassword.getPassword();
+                char[] passchar = pasPassword.getPassword();
+                String password = new String(passchar);
 
                 System.out.println("UserName: " + username);
-                for (char letter : password) {
-                    System.out.println(letter);
-                }
+                System.out.println("Password: " + password);
             }
         });
 
@@ -55,6 +55,7 @@ public class main {
         btnExit.setText("Exit");
         btnExit.setBounds(300, 200, 100, 50);
         btnExit.addActionListener(new ActionListener() {
+            //function to exit application on button click
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
             }
